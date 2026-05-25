@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: spring-cloud-config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///Users/mmanjunatha/A_Drive/Equinix/MyPrograms/SpringCloudConfig/config-repo
+          #uri: https://github.com/your-org/config-repo
+          #username: your-user
+          #password: your-token
