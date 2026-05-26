@@ -1,0 +1,137 @@
+# =========================================================
+# Spring Boot / Java / Maven / Gradle
+# IntelliJ IDEA + Eclipse
+# =========================================================
+
+# test config repo
+
+test-config-repo/
+
+
+# ---- Compiled class files ----
+*.class
+
+# ---- Log files ----
+*.log
+
+# ---- Package files ----
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ---- JVM crash logs ----
+hs_err_pid*
+replay_pid*
+
+# =========================================================
+# Maven
+# =========================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================================================
+# Gradle
+# =========================================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================================================
+# Spring Boot
+# =========================================================
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+
+# =========================================================
+# IntelliJ IDEA
+# =========================================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# =========================================================
+# Eclipse
+# =========================================================
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders/
+
+# Eclipse Core
+.project
+
+# JDT-specific
+.classpath
+
+# STS (Spring Tool Suite)
+.springBeans
+.sts4-cache/
+
+# =========================================================
+# VS Code (optional)
+# =========================================================
+.vscode/
+
+# =========================================================
+# OS generated files
+# =========================================================
+.DS_Store
+Thumbs.db
+
+# =========================================================
+# Environment files
+# =========================================================
+.env
+.env.*
+!.env.example
+
+# =========================================================
+# Coverage / Reports
+# =========================================================
+coverage/
+jacoco.exec
+
+# =========================================================
+# Node (if frontend exists inside project)
+# =========================================================
+node_modules/
+dist/
+
+# =========================================================
+# Docker
+# =========================================================
+*.pid
+*.seed
+*.pid.lock
+
+# =========================================================
+# Misc
+# =========================================================
+logs/
+temp/
+tmp/
